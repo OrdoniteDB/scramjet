@@ -1,12 +1,12 @@
 {
-	"name": "@mercuryworkshop/scramjet",
+	"name": "@mercuryworkshop/bamjet",
 	"version": "2.0.0-alpha",
 	"description": "An experimental web proxy that aims to be the successor to Ultraviolet",
 	"type": "module",
 	"types": "./dist/types/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MercuryWorkshop/scramjet"
+		"url": "https://github.com/MercuryWorkshop/bamjet"
 	},
 	"scripts": {
 		"build": "rspack build --mode production",
@@ -42,7 +42,7 @@
 		},
 		"./bundled": {
 			"types": "./dist/types/index.d.ts",
-			"default": "./dist/scramjet.bundle.js"
+			"default": "./dist/bamjet.bundle.js"
 		}
 	},
 	"files": [
